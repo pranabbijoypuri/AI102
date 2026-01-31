@@ -19,6 +19,23 @@ isodate = ">=0.6.1,<1.0.0"
 typing-extensions = ">=4.0.1"
 
 [[package]]
+name = "azure-ai-vision-face"
+version = "1.0.0b2"
+description = "Microsoft Azure Ai Vision Face Client Library for Python"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "azure_ai_vision_face-1.0.0b2-py3-none-any.whl", hash = "sha256:a3981a0094451d7841f4eb75383c436a8a3766cde2e9b2ba21bce7615cd4f797"},
+    {file = "azure_ai_vision_face-1.0.0b2.tar.gz", hash = "sha256:65ba9448a61602fb45c83ea6ed8e98aceb1756bf4be6cb8ef1eff996e522a9bb"},
+]
+
+[package.dependencies]
+azure-core = ">=1.30.0"
+isodate = ">=0.6.1"
+typing-extensions = ">=4.6.0"
+
+[[package]]
 name = "azure-ai-vision-imageanalysis"
 version = "1.0.0"
 description = "Microsoft Azure Ai Vision Imageanalysis Client Library for Python"
@@ -527,4 +544,4 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "0d5a7c3a5c9a5b834fd04b88707e8ffd6bf856fa983a220f44327f6697306ec4"
+content-hash = "18cb4dafda0760d70f1ad642ff33a885d530a7a7c18e6a3a2163b6208492469e"
